@@ -1,4 +1,3 @@
-extern crate regex;
 use super::regex::Regex;
 #[derive(Debug)]
 pub struct Rectangle {

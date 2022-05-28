@@ -1,4 +1,5 @@
 mod example;
+
 use std::fmt;
 use std::fmt::{Arguments, Formatter, write};
 use std::io::{IoSlice, Write};
