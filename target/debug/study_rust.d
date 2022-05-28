@@ -1,0 +1,1 @@
+/Users/hejian/Desktop/work_project/rust_project/study_rust/target/debug/study_rust: /Users/hejian/Desktop/work_project/rust_project/study_rust/src/example/mod.rs /Users/hejian/Desktop/work_project/rust_project/study_rust/src/main.rs
