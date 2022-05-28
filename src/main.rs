@@ -1,9 +1,11 @@
 mod example;
+mod structobj;
 
 use std::fmt;
 use std::fmt::{Arguments, Formatter, write};
 use std::io::{IoSlice, Write};
 use crate::example::{Parse, Rectangle};
+use crate::structobj::{Add,Complex};
 
 struct  BufBuilder {
     buf: Vec<u8>
@@ -46,5 +48,9 @@ fn main() {
     let mut buf = BufBuilder::new();
     buf.write_all(b"Hello world !").unwrap();
     println!("{:?}",buf);
-    println!("reslut: {}" ,u8::parse("255 hello world"))
+    println!("reslut: {}" ,u8::parse("255 hello world"));
+
+    let c1 =Complex::new(1.0, 1f64);
+    let c2= Complex::new(2 as f64, 3.0);
+    println!("{:?}",c2+c1)
 }
