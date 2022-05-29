@@ -1,11 +1,11 @@
 mod example;
 mod structobj;
 
-use std::fmt;
+use std::{fmt, thread};
 use std::fmt::{Arguments, Formatter, write};
 use std::io::{IoSlice, Write};
 use crate::example::{Parse, Rectangle};
-use crate::structobj::{Add,Complex};
+use crate::structobj::Complex;
 
 struct  BufBuilder {
     buf: Vec<u8>
@@ -52,5 +52,17 @@ fn main() {
 
     let c1 =Complex::new(1.0, 1f64);
     let c2= Complex::new(2 as f64, 3.0);
-    println!("{:?}",c2+c1)
+    println!("{:?}",c2+c1);
+
+    let s = String::from("hello world");
+
+    let handle = thread::spawn(move || {
+        println!("moved: {:?}",s);
+
+    });
+
+    handle.join().unwrap();
+
+    // println!("{}",s);
+    println!("moved: {:?}", handle);
 }
