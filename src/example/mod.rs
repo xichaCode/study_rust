@@ -1,3 +1,6 @@
+mod redius;
+mod image;
+
 use regex::Regex;
 use std::str::FromStr;
 #[derive(Debug)]
