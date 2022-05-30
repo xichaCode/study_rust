@@ -8,7 +8,7 @@ pub use abi::*;
 use crate::pb::resize::SampleFilter;
 
 impl ImageSpec {
-    pub fn new (spec: Vec<Spec>) -> Self{
+    pub fn new (specs: Vec<Spec>) -> Self{
         Self {
             specs
         }
@@ -26,8 +26,8 @@ impl TryFrom<&str> for ImageSpec {
     type Error = anyhow::Error;
 
     fn try_from(value: &str) -> Result<Self, Self::Error> {
-        let data = decode_config(value, URL_SAFE_NO_PAD);
-        Ok(ImageSpec::decode(&data[..])?);
+        let data = decode_config(value, URL_SAFE_NO_PAD)?;
+        Ok(ImageSpec::decode(&data[..])?)
     }
 }
 
@@ -42,17 +42,16 @@ impl filter::Filter {
     }
 }
 
-impl From<resize::SampleFilter> for SampleFilter {
+impl From<resize::SampleFilter> for SamplingFilter {
     fn from(v: resize::SampleFilter) -> Self {
         match v {
-            resize::SampleFilter::Undefined => SampleFilter::Nearest,
+            resize::SampleFilter::Undefined => SamplingFilter::Nearest,
             resize::SampleFilter::Nearest => SamplingFilter::Nearest,
             resize::SampleFilter::Triangle => SamplingFilter::Triangle,
             resize::SampleFilter::CatmullRom => SamplingFilter::CatmullRom,
             resize::SampleFilter::Gaussian => SamplingFilter::Gaussian,
             resize::SampleFilter::Lanczos3 => SamplingFilter::Lanczos3,
         }
-        todo!()
     }
 }
 

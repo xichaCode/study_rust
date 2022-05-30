@@ -1749,6 +1749,7 @@ dependencies = [
  "photon-rs",
  "prost",
  "prost-build",
+ "regex",
  "reqwest",
  "serde",
  "tokio",

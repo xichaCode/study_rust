@@ -1,5 +1,6 @@
 mod redius;
 mod image;
+mod selfs;
 
 use regex::Regex;
 use std::str::FromStr;
