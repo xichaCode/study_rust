@@ -1,0 +1,16 @@
+/Users/hejian/Desktop/work_project/rust_project/study_rust/target/debug/deps/prost_build-308ed4be72c667a3.rmeta: /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/lib.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ast.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/code_generator.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/extern_paths.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ident.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/message_graph.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/path.rs
+
+/Users/hejian/Desktop/work_project/rust_project/study_rust/target/debug/deps/libprost_build-308ed4be72c667a3.rlib: /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/lib.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ast.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/code_generator.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/extern_paths.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ident.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/message_graph.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/path.rs
+
+/Users/hejian/Desktop/work_project/rust_project/study_rust/target/debug/deps/prost_build-308ed4be72c667a3.d: /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/lib.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ast.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/code_generator.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/extern_paths.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ident.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/message_graph.rs /Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/path.rs
+
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/lib.rs:
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ast.rs:
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/code_generator.rs:
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/extern_paths.rs:
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/ident.rs:
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/message_graph.rs:
+/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/src/path.rs:
+
+# env-dep:PROTOC=/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/third-party/protobuf/protoc-osx-x86_64
+# env-dep:PROTOC_INCLUDE=/Users/hejian/.cargo/registry/src/github.com-1ecc6299db9ec823/prost-build-0.8.0/third-party/protobuf/include
